@@ -29,7 +29,7 @@ module Jekyll
     <noscript><meta http-equiv="refresh" content="0; url=/#{@redirect_to}" /></noscript>
   </head>
   <body>
-    Redirecting from #{@path} to #{@redirect_to}
+    Redirecting from #{@name} to #{@redirect_to}
     <!-- Redirect in JavaScript with meta refresh fallback above in noscript -->
      <script>
        var destination = '/#{@redirect_to}';
